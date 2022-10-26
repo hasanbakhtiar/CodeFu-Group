@@ -1,0 +1,23 @@
+/* ctrl + / */
+/* this is comment */
+/* 
+first comment
+second comment
+*/
+h1{
+    color: red;
+    background-color: green;
+
+}
+p{
+    /* font-style: italic; */
+    /* font-size: 30px; */
+    /* font-weight:900; */
+    /* font-family: 'Courier New', Courier, monospace,sans-serif; */
+    /* line-height: 10px; */
+    /* letter-spacing: 10px; */
+    /* text-transform: capitalize; */
+    /* text-decoration: underline; */
+    /* text-align: center; */
+    
+}

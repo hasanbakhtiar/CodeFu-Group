@@ -1,0 +1,35 @@
+.line-con {
+  display: flex;
+}
+.line-con h1::after, .line-con h1::before {
+  content: "";
+  display: inline-block;
+  width: 0px;
+  height: 3px;
+  background-color: #000;
+  margin-bottom: 10px;
+  transition: 1s;
+}
+.line-con h1:hover::after, .line-con h1:hover::before {
+  width: 300px;
+}
+
+.box {
+  position: relative;
+  width: 100px;
+  height: 300px;
+  background-color: red;
+}
+.box:after {
+  content: "Hello";
+  position: absolute;
+  width: 100px;
+  height: 0px;
+  bottom: 0;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: 1s;
+}
+.box:hover:after {
+  height: 300px;
+}/*# sourceMappingURL=style.css.map */

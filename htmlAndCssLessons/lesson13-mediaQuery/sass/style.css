@@ -1,0 +1,45 @@
+header {
+  width: 100%;
+  height: 100px;
+  background-color: bisque;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .logo {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header nav {
+  width: 70%;
+}
+header nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+header .menu {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  header {
+    background-color: red;
+  }
+  header nav {
+    display: none;
+  }
+  header .menu {
+    display: block;
+    margin-right: 200px;
+  }
+}
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  -webkit-clip-path: polygon(58% 9%, 29% 52%, 93% 82%, 17% 13%, 78% 29%, 50% 80%, 15% 37%);
+          clip-path: polygon(58% 9%, 29% 52%, 93% 82%, 17% 13%, 78% 29%, 50% 80%, 15% 37%);
+}/*# sourceMappingURL=style.css.map */

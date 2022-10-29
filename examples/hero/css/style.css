@@ -1,0 +1,62 @@
+header{
+    width: 100%;
+    height: 100px;
+    background-color: bisque;
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+}
+header .logo{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+
+}
+header nav {
+    width: 70%;
+}
+header nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header nav ul li{
+    list-style: none;
+
+}
+header nav ul li a{
+    text-decoration: none;
+    color: brown;
+    font-weight: bolder;
+    font-family: sans-serif;
+    border: 3px solid orange;
+    background-color: rgb(255, 234, 0);
+    padding: 7px;
+    border-radius:15px ;
+}
+
+header nav ul li a:hover{
+    background-color: brown;
+    color: rgb(255, 234, 0);
+}
+
+.hero{
+    width: 100%;
+    height: 70vh;
+    background-image: url('https://good-nature-blog-uploads.s3.amazonaws.com/uploads/2022/01/good-nature-homepage-hero_2-scaled.jpg');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+.hero .hero-bg{
+    width: 100%;
+    height: 70vh;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero .hero-bg h1{
+    font-size: 50px;
+    color: #fff;
+}

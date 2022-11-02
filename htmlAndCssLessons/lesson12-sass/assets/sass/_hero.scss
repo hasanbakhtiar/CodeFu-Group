@@ -1,0 +1,44 @@
+
+.hero {
+    width: $mysize;
+    height: 70vh;
+    background-color: bisque;
+  @include center();
+    .hero-con {
+      width: 80%;
+      height: 60vh;
+      @include center();
+  
+      .left-text {
+        width: 80%;
+        height: 60vh;
+        @include center();
+  
+        flex-direction: column;
+        h1 {
+          color: $myblue;
+          font-size: 70px;
+        }
+        p {
+          width: 50%;
+        }
+        .btn-con {
+          width: 100%;
+          display: flex;
+          justify-content: flex-start;
+          button {
+            &:nth-child(1) {
+              margin-left: 10px;
+            }
+          }
+        }
+      }
+      .right-img {
+        width: 50%;
+        height: 60vh;
+        @include center();
+  
+      }
+    }
+  }
+  

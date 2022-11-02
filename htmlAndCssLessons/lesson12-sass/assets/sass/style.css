@@ -1,0 +1,51 @@
+header {
+  width: 100%;
+  height: 100px;
+  background-color: red;
+}
+
+.hero {
+  width: 100%;
+  height: 70vh;
+  background-color: bisque;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero .hero-con {
+  width: 80%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero .hero-con .left-text {
+  width: 80%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.hero .hero-con .left-text h1 {
+  color: #006d77;
+  font-size: 70px;
+}
+.hero .hero-con .left-text p {
+  width: 50%;
+}
+.hero .hero-con .left-text .btn-con {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.hero .hero-con .left-text .btn-con button:nth-child(1) {
+  margin-left: 10px;
+}
+.hero .hero-con .right-img {
+  width: 50%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */

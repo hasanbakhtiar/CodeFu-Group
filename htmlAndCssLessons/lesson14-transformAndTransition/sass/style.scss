@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+// .main-box{
+//     transform: rotate(150deg);
+
+// .box{
+//     width: 100px;
+//     height: 100px;
+//     background-color: red;
+//     // transform: translateY(200px);
+//     // transform: translateX(200px);
+//     // transform: translate(100px,100px);
+
+//     // transform: scaleY(3);
+//     // transform: scaleX(3);
+//     // transform: scale(2,3);
+
+//     // transform: skewX(20deg);
+//     // transform: skewY(20deg);
+//     // transform: skew(20deg,30deg);
+
+//     // transform: rotate(150deg);
+
+//     // matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY())
+//     transform: matrix(1, -0.3, 0, 1, 0, 0);
+// }
+// }
+
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // transition-duration: 1s;
+    // transition-property: transform, background-color ;
+    // transition-delay: 2s;
+    // transition: transform 2s, background-color 5s;
+    transition: 1s;
+    i{
+        transition: 1s;
+        color: #fff;
+    }
+
+    &:hover{
+        
+        background-color: red;
+        transform: scale(2);
+      
+    }
+    &:hover i{
+        transform: rotate(360deg);
+      }
+}

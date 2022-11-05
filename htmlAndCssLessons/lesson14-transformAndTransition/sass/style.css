@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 1s;
+}
+.box i {
+  transition: 1s;
+  color: #fff;
+}
+.box:hover {
+  background-color: red;
+  transform: scale(2);
+}
+.box:hover i {
+  transform: rotate(360deg);
+}/*# sourceMappingURL=style.css.map */

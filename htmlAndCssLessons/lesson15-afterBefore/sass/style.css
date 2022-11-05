@@ -1,0 +1,51 @@
+.box {
+  position: relative;
+  width: 100px;
+  height: 300px;
+  background-color: red;
+}
+.box::after {
+  position: absolute;
+  top: 0;
+  content: "";
+  display: block;
+  width: 100px;
+  height: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: 1s;
+}
+.box:hover::after {
+  height: 300px;
+}
+
+header ul {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+header ul .submenu {
+  position: relative;
+}
+header ul .submenu:hover ul {
+  z-index: 2;
+  top: 20px;
+  left: 0;
+  opacity: 1;
+}
+header ul .submenu ul {
+  transition: 1s;
+  top: 20px;
+  left: 100px;
+  opacity: 0;
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  background-color: bisque;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: grey;
+}/*# sourceMappingURL=style.css.map */

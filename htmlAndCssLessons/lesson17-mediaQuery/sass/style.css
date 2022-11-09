@@ -1,0 +1,28 @@
+header {
+  width: 100%;
+  height: 100px;
+  background-color: bisque;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header ul {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+header .menu {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  header {
+    background-color: red;
+  }
+  header .menu {
+    display: block;
+  }
+  header ul {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */

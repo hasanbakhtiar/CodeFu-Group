@@ -1,0 +1,53 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alert-box {
+  width: 3%;
+  height: 50px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  transition: 1s;
+}
+.alert-box i {
+  font-size: 50px;
+  color: #075E54;
+  -webkit-animation: alertcolor 2s infinite linear;
+          animation: alertcolor 2s infinite linear;
+}
+@-webkit-keyframes alertcolor {
+  0% {
+    color: #075E54;
+  }
+  50% {
+    color: #25D366;
+  }
+  100% {
+    color: #075E54;
+  }
+}
+@keyframes alertcolor {
+  0% {
+    color: #075E54;
+  }
+  50% {
+    color: #25D366;
+  }
+  100% {
+    color: #075E54;
+  }
+}
+.alert-box p {
+  display: none;
+}
+.alert-box:hover {
+  width: 30%;
+}
+.alert-box:hover p {
+  display: block;
+}/*# sourceMappingURL=style.css.map */

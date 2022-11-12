@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+  header {
+    .box-main {
+      nav,
+      .order {
+        display: none !important;
+      }
+    }
+  }
+  .sec3{
+    flex-direction: column;
+    height: auto;
+  }
+}

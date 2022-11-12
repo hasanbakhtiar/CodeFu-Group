@@ -1,0 +1,148 @@
+.people{
+    margin-top: 120px;
+    width: 100%;
+    height: 70vh;
+    .main-con{
+        width: 1,182.96px;
+        height: 311.28px;
+        display: flex;
+        margin-left: 30px;
+        .person{
+            width: 30%;
+            height: 311.28px;
+            .head{
+               
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 120px;
+                    height: 120px;
+                }
+            }
+            .text{
+               
+                p{
+                    font-family: sans-serif;
+                    color: #626262;
+                    font-size: 13px;
+                    text-align: center;
+                    letter-spacing: 1px;
+                    row-gap: 1px;
+                }
+            }
+            .end{
+                width: 394.32px;
+                height: 103.28px;
+                flex-direction: column;
+                p{
+                    display: flex;
+                    width: 394.32px;
+
+                    color: orange;
+                    justify-content: center;
+                }
+                h1{
+                    display: flex;
+                    font-family: sans-serif;
+                    font-size: 13px;
+                    text-transform: uppercase;
+                    justify-content: center;
+                }
+            }
+        }
+
+    }
+}
+
+.contact{
+    margin-top: 20px;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    .main-con{
+        display: flex;
+        width: 100%;
+        height: 20vh;
+    
+        .tel{
+            width: 33.3333%;
+            height: 20vh;
+            flex-direction: column;
+            justify-content: center;
+            .img{
+                width: 100%;
+                height: 30px;
+                display: flex;
+                justify-content: center;
+            img{
+                width: 20px;
+                height: 30px;
+                
+            }
+            }
+            p{
+                width: 100%;
+                font-family: sans-serif;
+                letter-spacing: 1px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+            }
+        }
+        //location
+        .location{
+            width: 33.3333%;
+            height: 20vh;
+            flex-direction: column;
+            justify-content: center;
+            .img{
+                width: 100%;
+                height: 30px;
+                display: flex;
+                justify-content: center;
+            img{
+                width: 30px;
+                height: 30px;
+                
+            }
+            }
+            p{
+                width: 100%;
+                font-family: sans-serif;
+                letter-spacing: 1px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+            }
+        }
+
+        .mail{
+            width: 33.3333%;
+            height: 20vh;
+            flex-direction: column;
+            justify-content: center;
+            .img{
+                width: 100%;
+                height: 30px;
+                display: flex;
+                justify-content: center;
+            img{
+                width: 30px;
+                height: 30px;
+                
+            }
+            }
+            p{
+                width: 100%;
+                font-family: sans-serif;
+                letter-spacing: 1px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+            }
+        }
+    }
+}

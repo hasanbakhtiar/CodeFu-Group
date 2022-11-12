@@ -1,0 +1,77 @@
+header{
+    .box-main{
+        height: 15vh;
+        width: 100%;
+        background-color: #fff;
+        display: flex;
+        .logo{
+            width: 10%;
+            height: 15vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        nav{
+            width: 90%;
+            height: 15vh;
+            display: flex;
+            .nav{
+            width: 80%;
+            display: flex;
+            margin-left: 100px;
+            //  border: 3px solid red;
+                ul{
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    //  border: 3px solid black;
+                    li{
+                        display: flex;
+                        justify-content: end;
+                        a{
+                            text-decoration: none;
+                            color: black;
+                        }                        
+                    }
+                }                
+            }
+        }
+        .order{
+            width: 20%;
+            height: 15vh;
+            display: flex;
+            // border: 3px solid blue;
+            .cart{
+                
+                width: 50%;
+                display: flex;
+                img{
+                display: flex;
+                align-items: center;    
+                margin-top: 35px;
+                cursor: pointer;
+                    }
+
+                p{
+                    display: flex;
+                    align-items: center;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    font-family: sans-serif;
+                }
+            }
+
+            .search{
+                width: 50%;
+                img{
+                    margin-top: 35px;
+                    margin-left: 20px;
+                    cursor: pointer;
+                }
+            }
+            // border: 3px solid orange;
+        }
+    }    
+}

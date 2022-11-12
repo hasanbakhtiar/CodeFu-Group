@@ -1,0 +1,111 @@
+.sec4{
+   
+    background-image: url(img/background1.jpg);
+
+    
+    margin-top: 50px;
+    height: 440px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    .text1{
+        display: flex;
+        width: 50%;
+        height: 440px;
+        flex-direction: column;
+        .words{
+            width: 80%;
+            height: 200px;
+            margin: 50px 50px;
+        .head{
+           
+            width: 100%;
+            font-family: sans-serif;
+            text-transform: uppercase;
+        }
+        .textarea{
+            width: 80%;
+            display: flex;  
+            font-size: 14px;
+            line-height: 26px;
+            font-family: sans-serif;
+            
+        }
+    }
+        .readmore{
+            display: flex;
+        
+            a{    
+            text-decoration: none;
+            color:  white;
+            background-color: black;
+            border: 2px solid black;
+            font-size: 16px;
+            padding: 3px 10px;
+            }
+            a:hover{
+                background-color: white;
+                color: black;
+            }
+        }    
+}
+
+
+    .text2{
+        display: flex;
+        width: 50%;
+        height: 440px;
+        .item1{
+            width: 33.33%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            img{ width: 50px;   height: 50px;}
+            align-items: center;
+            h1{
+                font-weight: bold;
+                font-family: sans-serif;
+            }
+            p{
+                font-size: 15px;
+                font-family: sans-serif;
+                letter-spacing: 1px;
+            }
+        }
+        .item2{
+            width: 33.33%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            img{ width: 50px;   height: 50px;}
+            align-items: center;
+            h1{
+                font-weight: bold;
+                font-family: sans-serif;
+            }
+            p{
+                font-size: 15px;
+                font-family: sans-serif;
+                letter-spacing: 1px;
+            }
+        }
+        .item3{
+             width: 33.33%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            img{ width: 50px;   height: 50px;}
+            align-items: center;
+            h1{
+                font-weight: bold;
+                font-family: sans-serif;
+            }
+            p{
+                font-size: 15px;
+                font-family: sans-serif;
+                letter-spacing: 1px;
+            }
+        }
+        }
+        }
+    // }

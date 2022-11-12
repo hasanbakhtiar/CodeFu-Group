@@ -1,0 +1,114 @@
+.projects{
+    flex-direction: row;
+    margin-top: 40px;
+    .header{
+        width: 100%;
+        display: flex;
+        height: 20vh;
+        justify-content: center;
+        align-items: center;
+        h1{
+            font-family:'Open Sans', sans-serif;
+            text-transform: uppercase;
+            font-size: 30px;
+            letter-spacing: 3px;
+        }
+    }
+    .header1{
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        p{
+            width: 40%;
+            height: 104px;
+            display: flex;
+            color: gray;
+            text-align: center;
+            font-size: 18px;
+            line-height: 26px;
+        }
+    }
+
+    .list-con{
+        margin-top: 30px;
+        width: 100%;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        ul{
+            width: 60%;
+            list-style: none;
+            display: flex;
+            align-items: center;
+            li{
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+            
+                a{
+                    text-decoration: none;
+                    color: black;
+                    text-transform: uppercase;
+                    font-size: 14px;
+                    font-family: sans-serif;
+                }
+                a:hover{
+                    text-decoration: underline;
+                }
+        }
+    }
+}
+    .pic-main-con{
+        margin-top: 30px;
+        width: 100%;
+        height: 474px;
+        display: flex;
+        //colum1--------------
+        .column1{
+            display: flex;
+            width: 25%;
+            height: 474px;
+            flex-direction: column;
+        img{
+        width: 100%;
+        height: 237px;    
+        }
+        }
+        //colum2----------------
+        .column2{
+            display: flex;
+            width: 25%;
+            height: 474px;
+            flex-direction: column;
+                img{
+                width: 100%;
+                height: 474px;
+                }
+        }
+        //column3--------------------
+        .column3{
+            display: flex;
+            width: 25%;
+            height: 474px;
+            flex-direction: column;
+        img{
+        width: 100%;
+        height: 237px;    
+        }
+        }
+        //column4
+        .column4{
+            display: flex;
+            width: 25%;
+            height: 474px;
+            flex-direction: column;
+            img{
+                width: 100%;
+                height: 237px;
+            }
+        }
+    }
+
+}

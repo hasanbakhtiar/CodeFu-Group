@@ -1,0 +1,23 @@
+.hero-wrapper{
+    height: auto;
+    background-image:url('https://rstheme.com/products/html/swipy/assets/images/banner/main-home/main-bg.jpg') ;
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    .btn-violet{
+        background-color: rgb(83, 0, 83);
+        color: #fff;
+    }
+}
+.service-bg{
+    height: auto;
+    background-image:url('https://rstheme.com/products/html/swipy/assets/images/bg/ser-bg1.png') ;
+
+#hero-card{
+    transition: 1s;
+    border-radius: 20px;
+    &:hover{
+        box-shadow: 25px 25px 81px 0px rgb(95 63 176 / 20%);
+    }
+}
+}

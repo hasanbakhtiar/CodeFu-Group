@@ -65,20 +65,68 @@
 // }
 
 
-let myTime = prompt();    
+// let myTime = prompt();    
 
-if (myTime>5&&myTime<13) {
-    console.log('good morning');
+// if (myTime>5&&myTime<13) {
+//     console.log('good morning');
 
-    if (myTime == 9) {
-        console.log('lesson start');
-    }
-}else if(myTime >= 13 && myTime <17){
-console.log('good afternoon');
-}else if(myTime >=17 && myTime <21){
-    console.log('good evening');
-}else if(myTime > 21 && myTime <=23){
-    console.log('good night');
-}else{
-    console.log('time is wrong');
+//     if (myTime == 9) {
+//         console.log('lesson start');
+//     }
+// }else if(myTime >= 13 && myTime <17){
+// console.log('good afternoon');
+// }else if(myTime >=17 && myTime <21){
+//     console.log('good evening');
+// }else if(myTime > 21 && myTime <=23){
+//     console.log('good night');
+// }else{
+//     console.log('time is wrong');
+// }
+
+
+
+// var info = 5;
+
+// switch(info){
+//     case "funny":
+//         console.log('js is funny');
+//     break;
+//     case 'good':
+//         console.log('js is good');
+//     break;
+//     case 5:
+//         info +=5;
+//         console.log(info);
+//         if (info>6 && info<20) {
+//             console.log('this is true');
+//             info--;
+//             let myNewData = info;
+//             switch(myNewData){
+//                 case 10:
+//                     console.log('this is 10');
+//                 break;
+//                 default :
+//                 console.log('something is wrong...');
+//             }
+//         }else{
+//             console.log('this is false');
+//         }
+//         // console.log('this is 5');
+//     break;
+//     default:
+//         console.log('this is default');
+//     break;
+// }
+
+
+
+try {
+    throw 'everything is ok';
+    console.loga('hello');
+} catch (err) {
+    console.log(err);
+    // console.log('something is false');
+}finally{
+    console.log('im running everytime');
 }
+

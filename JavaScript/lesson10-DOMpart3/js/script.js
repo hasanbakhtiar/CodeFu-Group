@@ -35,3 +35,42 @@ if (localStorage.getItem('mode') === null) {
 }
 
 nav.className = localStorage.getItem('mode');
+
+// multilang with localstorage
+
+const lang={
+    en:["Home","About","Services","Blog",'Contact'],
+    az:["Ana Sehife","Haqqimizda","Xidmetlerimiz","Meqale",'Elaqe']
+}
+
+const langBtn = document.querySelector('#lang');
+const langItem = document.querySelectorAll('.nav-link');
+
+if (localStorage.getItem('lang') === null && localStorage.getItem('langBtn') === null) {
+    localStorage.setItem('lang',lang.az);
+    localStorage.setItem('langBtn',"AZ")
+}else{
+   langBtn.onclick=()=>{
+    if (langBtn.innerHTML === "AZ") {
+        for(let i in lang.az){
+            langItem[i].innerHTML = lang.az[i];
+            localStorage.setItem('lang',lang.az);
+        }
+        langBtn.innerHTML = "EN";
+        localStorage.setItem('langBtn',"EN");
+    }else{
+        for(let i in lang.en){
+            langItem[i].innerHTML = lang.en[i];
+            localStorage.setItem('lang',lang.en);
+        }
+        langBtn.innerHTML = "AZ";
+        localStorage.setItem('langBtn',"AZ");
+    }
+   }
+}
+
+langBtn.innerHTML = localStorage.getItem('langBtn');
+
+for(let i in lang.az){
+    langItem[i].innerHTML = localStorage.getItem('lang').split(',')[i];
+}

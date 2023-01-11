@@ -26,6 +26,9 @@ const todoList = document.querySelector("ol");
 const form = document.querySelector("form");
 const todoApp = (e) => {
   e.preventDefault();
+ if (input.value === "") {
+    alert('please, fill out input!');
+ }else{
   const li = document.createElement("li");
   const att = document.createAttribute("class");
   att.value = "list-group-item list-group-item-action";
@@ -45,6 +48,7 @@ const todoApp = (e) => {
   li.ondblclick = () => {
     li.remove();
   };
+ }
 };
 
 form.onsubmit = todoApp;

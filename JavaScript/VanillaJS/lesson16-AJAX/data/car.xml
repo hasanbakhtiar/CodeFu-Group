@@ -1,0 +1,23 @@
+<allCar>
+
+
+<Car id="1">
+    <brand>bmw</brand>
+    <model>x5</model>
+    <year>2023</year>
+</Car>
+
+<Car id="2">
+    <brand>bmw</brand>
+    <model>x5</model>
+    <year>2023</year>
+</Car>
+
+<Car id="3">
+    <brand>bmw</brand>
+    <model>x5</model>
+    <year>2023</year>
+</Car>
+
+
+</allCar>

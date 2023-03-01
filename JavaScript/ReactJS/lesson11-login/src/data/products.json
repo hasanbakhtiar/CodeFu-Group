@@ -1,0 +1,46 @@
+[
+    {
+      "id": "1",
+      "picSimple": "http://wpbingosite.com/wordpress/oritina/wp-content/uploads/2016/04/product-20.jpg",
+      "picHover": "http://wpbingosite.com/wordpress/oritina/wp-content/uploads/2017/08/product-13.jpg",
+      "title": "Flower Glass Vase",
+      "price": "259.00",
+      "prevPrice": "",
+      "countRev": "0",
+      "desc": "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Aliqua. Ut Enim Ad Minim Veniam, Quis Nostrud Exercitation Ullamco Laboris Nisi Ut Aliquip Ex Ea Commodo Consequat. Duis Aute Irure Dolor In Reprehenderit In Voluptate Velit Esse Cillum Dolore Eu Fugiat Nulla Pariatur.",
+      "starColor": "text-gray"
+    },
+    {
+      "id": "2",
+      "picSimple": "http://wpbingosite.com/wordpress/oritina/wp-content/uploads/2016/04/product-1.jpg",
+      "picHover": "http://wpbingosite.com/wordpress/oritina/wp-content/uploads/2016/04/product-1.1.jpg",
+      "title": "Clockwatcher",
+      "price": "571.00",
+      "prevPrice": "",
+      "countRev": "1",
+      "desc": "Pellentesque Habitant Morbi Tristique Senectus Et Netus Et Malesuada Fames Ac Turpis Egestas. Vestibulum Tortor Quam, Feugiat Vitae, Ultricies Eget, Tempor Sit Amet, Ante. Donec Eu Libero Sit Amet Quam Egestas Semper. Aenean Ultricies Mi Vitae Est. Mauris Placerat Eleifend Leo",
+      "starColor": "text-warning"
+    },
+    {
+      "id": "3",
+      "picSimple": "http://wpbingosite.com/wordpress/oritina/wp-content/uploads/2016/04/product-2.jpg",
+      "picHover": "http://wpbingosite.com/wordpress/oritina/wp-content/uploads/2016/04/product-14.jpg",
+      "title": "Handmade Pillow",
+      "prevPrice": "$217.21",
+      "price": "210.00",
+      "countRev": "0",
+      "desc": "The EcoSmart Fleece Hoodie Full-Zip Hooded Jacket Provides Medium Weight Fleece Comfort All Year Around. Feel Better In This Sweatshirt Because Hanes Keeps Plastic Bottles Of Landfills By Using Recycled Polyester.7.8 Ounce Fleece Sweatshirt Made With Up To 5 Percent Polyester Created From Recycled Plastic.",
+      "starColor": "text-warning"
+    },
+    {
+      "id": "4",
+      "picSimple": "http://wpbingosite.com/wordpress/oritina/wp-content/uploads/2016/04/product-3.jpg",
+      "picHover": "http://wpbingosite.com/wordpress/oritina/wp-content/uploads/2016/04/product-14.jpg",
+      "title": "Fauteuil Bulle",
+      "price": "30.99",
+      "prevPrice": "$50.99",
+      "countRev": "0",
+      "desc": "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Aliqua. Ut Enim Ad Minim Veniam, Quis Nostrud Exercitation Ullamco Laboris Nisi Ut Aliquip Ex Ea Commodo Consequat. Duis Aute Irure Dolor In Reprehenderit In Voluptate Velit Esse Cillum Dolore Eu Fugiat Nulla Pariatur.",
+      "starColor": "text-gray"
+    }
+  ]

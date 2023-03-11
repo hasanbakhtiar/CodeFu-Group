@@ -7,7 +7,7 @@ export const ProductProvider =(props)=>{
     const [products,setProducts] = useState([]);
     useEffect(()=>{
         const fetchApi = async()=>{
-            const comingData = await axios.get('https://api.escuelajs.co/api/v1/categories')
+            const comingData = await axios.get('https://fakestoreapi.com/products')
             setProducts(comingData.data);
         }
         fetchApi()

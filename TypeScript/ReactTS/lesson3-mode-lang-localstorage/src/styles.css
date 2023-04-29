@@ -1,0 +1,16 @@
+
+.dark *{
+    background-color: #000;
+    color:#fff;
+    
+}
+
+.dark *:active{
+  color:red !important;
+  
+}
+
+.light *{
+  background-color: #fff;
+  color:#000;
+}
